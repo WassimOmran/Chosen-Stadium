@@ -1,13 +1,4 @@
 Assets {
-  Id: 18441810659176357459
-  Name: "Planet"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Planet"
-  }
-}
-Assets {
   Id: 17019761906492753500
   Name: "Generic Water - No Distortion"
   PlatformAssetType: 2
@@ -17,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
+  Id: 16941721426145769045
+  Name: "Waterfall 90 Inner Corner"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "waterfall_90ic"
   }
 }
 Assets {
@@ -44,12 +35,21 @@ Assets {
   }
 }
 Assets {
-  Id: 12344193518355455075
-  Name: "Star Dome"
-  PlatformAssetType: 6
+  Id: 13846312327696756488
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_StarDome"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
+  }
+}
+Assets {
+  Id: 13406550393635216095
+  Name: "Tree Redwood Big Crown 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001_crown_ref"
   }
 }
 Assets {
@@ -62,30 +62,21 @@ Assets {
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
+  Id: 10110323681670921320
+  Name: "Tree Birch Bare 02"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_birch_004"
   }
 }
 Assets {
-  Id: 10766975867019021707
-  Name: "Glass 01 (no distortion)"
+  Id: 7283825798727192743
+  Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetId: "mi_metal_iron_003"
   }
 }
 Assets {
@@ -98,12 +89,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5522885908355975336
-  Name: "Cylinder Half "
+  Id: 6264387274637990624
+  Name: "Waterfall Straight"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_half_001_ref"
+    AssetId: "fxsm_waterfall_straight"
   }
 }
 Assets {
@@ -116,12 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2617361319805279588
-  Name: "Nebula"
-  PlatformAssetType: 6
+  Id: 2913344346643025520
+  Name: "Terrain - Mossy Concrete"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Nebula"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_concrete-moss_001_wa"
   }
 }
 Assets {
@@ -131,14 +122,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_found_001"
-  }
-}
-Assets {
-  Id: 1353607577508895962
-  Name: "Moon"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Moon"
   }
 }

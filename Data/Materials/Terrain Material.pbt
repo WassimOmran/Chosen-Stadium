@@ -27,7 +27,7 @@ Assets {
       Overrides {
         Name: "cmp:Material4"
         AssetReference {
-          Id: 10311428345787370584
+          Id: 13325081943663124275
         }
       }
       Overrides {
@@ -74,12 +74,12 @@ Assets {
       }
     }
     Assets {
-      Id: 10311428345787370584
-      Name: "Bricks Mortar Thick 01"
+      Id: 13325081943663124275
+      Name: "Snow 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_bricks_mortar_001_uv"
+        AssetId: "mi_snow_001_uv"
       }
     }
   }
