@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17019761906492753500
+  Name: "Generic Water - No Distortion"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_parameter_driven_water_nodistortion"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -17,12 +26,21 @@ Assets {
   }
 }
 Assets {
-  Id: 12713642307398054367
-  Name: "Terrain - Grass"
+  Id: 16244414786145463704
+  Name: "Underwater Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_water"
+  }
+}
+Assets {
+  Id: 15911016222893037156
+  Name: "Metal Rusty Riveted"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_rock-grass-001_wa"
+    AssetId: "mi_metal_rust_rivets_001_uv"
   }
 }
 Assets {
@@ -35,21 +53,21 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 11090397360049192596
-  Name: "Terrain - Grass Cliffs"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_cliff-grass-001_wa"
   }
 }
 Assets {
@@ -71,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7053388570494604505
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
   Id: 5522885908355975336
   Name: "Cylinder Half "
   PlatformAssetType: 1
@@ -80,12 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3186986637702087812
-  Name: "Parallelepiped - Horizontal "
+  Id: 3694419892625887874
+  Name: "Military Hazard Barrel"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_parallelepiped_003"
+    AssetId: "sm_prop_mil_barrel_01_ref"
   }
 }
 Assets {

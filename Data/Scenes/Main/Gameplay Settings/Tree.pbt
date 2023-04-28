@@ -5,7 +5,6 @@ Objects {
   Name: "Third Person Camera Settings"
   Transform {
     Location {
-      Z: -1000
     }
     Rotation {
     }
@@ -180,7 +179,7 @@ Objects {
       WalkSpeed: 640
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
-      JumpMaxCount: 1
+      JumpMaxCount: 4
       JumpVelocity: 900
       GroundFriction: 8
       GravityScale: 1.9
