@@ -27,7 +27,13 @@ Assets {
       Overrides {
         Name: "cmp:Material4"
         AssetReference {
-          Id: 4466887358158154914
+          Id: 10311428345787370584
+        }
+      }
+      Overrides {
+        Name: "cmp:Material1"
+        AssetReference {
+          Id: 841534158063459245
         }
       }
     }
@@ -68,12 +74,12 @@ Assets {
       }
     }
     Assets {
-      Id: 4466887358158154914
-      Name: "Rocks River Bed 01"
+      Id: 10311428345787370584
+      Name: "Bricks Mortar Thick 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "puddle_river_bed_001"
+        AssetId: "mi_fan_bricks_mortar_001_uv"
       }
     }
   }

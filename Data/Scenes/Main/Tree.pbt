@@ -906,6 +906,7 @@ Objects {
   ChildIds: 15300318942666066996
   ChildIds: 16844828390277297392
   ChildIds: 16500235078793798325
+  ChildIds: 6910813743519100899
   ChildIds: 18246385981262798451
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1451,8 +1452,317 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 6910813743519100899
+  Name: "waterSMALL"
+  Transform {
+    Location {
+      Z: 3768.80859
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8204966967591143502
+  ChildIds: 15200440473201195843
+  ChildIds: 1536115353022992256
+  ChildIds: 6118711048924632241
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6118711048924632241
+  Name: "Underwater Post Process"
+  Transform {
+    Location {
+      X: 7392.38721
+      Y: 13421.2148
+      Z: -3134.73975
+    }
+    Rotation {
+    }
+    Scale {
+      X: -171.704956
+      Y: -241.822
+      Z: 52.8633041
+    }
+  }
+  ParentId: 6910813743519100899
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Distortion Amount"
+      Float: 0.474090666
+    }
+    Overrides {
+      Name: "bp:Distortion Speed"
+      Float: 0.373129666
+    }
+    Overrides {
+      Name: "bp:Distortion Scale"
+      Float: 4.49425316
+    }
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 0.0253584925
+    }
+    Overrides {
+      Name: "bp:Control Audio"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Fluid Friction"
+      Float: 4.07056379
+    }
+    Overrides {
+      Name: "bp:Depth Desaturation"
+      Float: 0.736021519
+    }
+    Overrides {
+      Name: "bp:Create Water Physics Volume"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Control Fog"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Caustics"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Water"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Fog Color"
+      Color {
+        R: 0.0416184738
+        B: 0.874000072
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16244414786145463704
+    }
+    TeamSettings {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1536115353022992256
+  Name: "Underwater Post Process"
+  Transform {
+    Location {
+      X: 7392.38721
+      Y: 12735.6406
+      Z: -1566.52661
+    }
+    Rotation {
+    }
+    Scale {
+      X: -12.1715803
+      Y: 16.3202782
+      Z: 73.470665
+    }
+  }
+  ParentId: 6910813743519100899
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Distortion Amount"
+      Float: 0.474090666
+    }
+    Overrides {
+      Name: "bp:Distortion Speed"
+      Float: 0.373129666
+    }
+    Overrides {
+      Name: "bp:Distortion Scale"
+      Float: 4.49425316
+    }
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 0.0253584925
+    }
+    Overrides {
+      Name: "bp:Control Audio"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Fluid Friction"
+      Float: 4.07056379
+    }
+    Overrides {
+      Name: "bp:Depth Desaturation"
+      Float: 0.736021519
+    }
+    Overrides {
+      Name: "bp:Create Water Physics Volume"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Control Fog"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Caustics"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Water"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Fog Color"
+      Color {
+        R: 0.0416184738
+        B: 0.874000072
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16244414786145463704
+    }
+    TeamSettings {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15200440473201195843
+  Name: "WATER"
+  Transform {
+    Location {
+      X: 7089.54
+      Y: 12781.7676
+      Z: -1459.4458
+    }
+    Rotation {
+    }
+    Scale {
+      X: -16.2304096
+      Y: 17.4535255
+      Z: -1.38451385
+    }
+  }
+  ParentId: 6910813743519100899
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17019761906492753500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 16500235078793798325
-  Name: "water"
+  Name: "water "
   Transform {
     Location {
     }
@@ -1499,7 +1809,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: -183.449661
+      X: -464.312836
       Y: 170.019394
       Z: 52.4304199
     }
@@ -1596,14 +1906,14 @@ Objects {
   Name: "WATER"
   Transform {
     Location {
-      X: -14496.9258
+      X: -9189.97949
       Y: 11448.3682
-      Z: 342.381104
+      Z: 330.815674
     }
     Rotation {
     }
     Scale {
-      X: -183.449661
+      X: -256.868805
       Y: 170.019394
       Z: -1.38451385
     }
@@ -15529,16 +15839,16 @@ Objects {
   Name: "DOME"
   Transform {
     Location {
-      X: -1050
-      Y: -400
-      Z: 9900
+      X: -619.936035
+      Y: 933.399414
+      Z: 8098.17871
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 33.25
-      Y: 525
+      X: 25.3489246
+      Y: 400.645142
       Z: 537.749756
     }
   }
