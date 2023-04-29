@@ -71,6 +71,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9422231016130425354
+  Name: "Transparent Bubble Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_transparent_bubble_glass"
+  }
+}
+Assets {
+  Id: 7914516510813437919
+  Name: "Crescent - 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crescent_003"
+  }
+}
+Assets {
   Id: 7283825798727192743
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
